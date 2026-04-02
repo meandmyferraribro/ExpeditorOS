@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install && npx vite build",
-  "outputDirectory": "dist",
-  "framework": "vite"
+  "buildCommand": "cd expeditor-os-complete && npm install && npx vite build",
+  "outputDirectory": "expeditor-os-complete/dist",
+  "installCommand": "cd expeditor-os-complete && npm install"
 }
